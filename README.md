@@ -11,6 +11,10 @@
 
 #### Recommended TODOs / Command Helpers for the Session / tweaks for pc
 * clear command line using ``` cls ```
+* Create directory ``` md ```
+* Delete directory ``` rd ```
+* Change directory ``` cd ```
+* Create file using touch ``` touch filename.ext ```
 * if you are using vsc use ``` CTRL + backticks or tilde(`) ``` to open terminal (add shift if you have CMDER)
 * install touch-cli ``` npm i -g touch-cli ```
 * add npm folder in your environment path 
@@ -20,7 +24,7 @@
 ![Edit Variables](capture_editvariables.PNG)
     4. Add the copied path earlier to the PATH environment variable: 
 ![add path](capture_addpath.PNG)
-
+    5. Add VSC code (wcs) path to the path as well so you can run ``` code . ``` to open VSC.
 
 # Node.JS
 
@@ -55,8 +59,37 @@
 * you may specify what versions your project depends upon to prevent updates from breaking your project
 * you can create your own package and share it to the world for them to use it.
 
+#### NPM command lines
+```
+npm -v // show npm version
+npm install npm -g // updates NPM to the latest version
+npm help // access npm help
+npm install // will install all dependencies
+npm install --dev // will install all dev-dependencies
+npm install <package name> // install package locally
+npm install <package name> --save // install package locally and add the package to project dependencies
+npm install <package name> --save-dev // install package locally and add the package to project dev-dependencies
+
+```
 #### Node and NPM samples
 
+checking versions
 ```node
     node -v or node --version
 ```
+
+Trying Node.JS in your command line
+``` 
+    node
+
+    or 
+
+    node myjsfile
+```
+Getting Started with NPM: 
+1. Create your directory and change directory into it ``` md myproject && cd myproject ```
+2. Tells npm to manage the folder / project directory by running: ``` npm init ```
+3. Verify if package.json was created in your project directory 
+4. Tip: you may also run ``` npm init --y ``` to questions and npm will have the default values
+
+Installing Package: 
