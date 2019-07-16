@@ -17,8 +17,9 @@
     1. Run or Go to : ``` %USERPROFILE%\AppData\Roaming\npm ```.
     2. Copy the Path
     3. Click winkey and type `variables`
-
 ![Edit Variables](capture_editvariables.PNG)
+    4. Add the copied path earlier to the PATH environment variable: 
+![add path](capture_addpath.PNG)
 
 
 # Node.JS
