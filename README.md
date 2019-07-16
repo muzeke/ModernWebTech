@@ -1,9 +1,9 @@
 # Introduction to Modern Web Technologies
 
 ### Topics
+- Markdown
 - Node.JS
 - NPM
-- Markdown
 - webpack
 - babel
 - es6
@@ -12,6 +12,7 @@
 #### Recommended TODOs / Command Helpers for the Session / tweaks for pc
 * git add --all && git commit -m "Update readme" && git push
 * clear command line using ``` cls ```
+* ``` CTRL + C ``` for exiting command line programs
 * Create directory ``` md ```
 * Delete directory ``` rd ```
 * Change directory ``` cd ```
@@ -66,7 +67,7 @@
 npm -v // show npm version
 npm install npm -g // updates NPM to the latest version
 npm help // access npm help
-npm install // will install all dependencies
+npm install // npm will download dependencies and devDependencies that are listed in package.json
 npm install --dev // will install all dev-dependencies
 npm install <package name> // install package locally
 npm install <package name>@<version range> // install package locally with specified version and add the package to project dependencies
@@ -96,10 +97,15 @@ Getting Started with NPM:
 3. Verify if package.json was created in your project directory 
 4. Tip: you may also run ``` npm init --y ``` to questions and npm will have the default values
 5. Install a package
-6. Create index.html and index.js
+6. Create src folder ``` md src ```
+7. Create index.html and index.js
     ``` touch index.html && touch index.js ```
-7. Use the package installed in node in your js file.
-7. Create your html5 defaults in index.html
-8. Link your JS file in your html file
-9. Run with http-server ( localhost ) ``` http-server ``` and access it via [http://localhost:8080/](http://localhost:8080/)
-10. 
+8. Use the package installed in node in your js file.
+9. Create your html5 defaults in index.html
+10. Link your JS file in your html file
+11. Run with http-server ( localhost ) via command : ``` http-server ``` and access it via [http://localhost:8080/](http://localhost:8080/)
+
+# Babel
+- a JS transpiler that converts new JS code into old ones.
+- is a very flexible tool in terms of transpiling. One can easily add presets such as es2015, es2016, es2017, so that Babel compiles them to ES5.
+- 
