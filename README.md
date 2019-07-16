@@ -10,6 +10,7 @@
 
 
 #### Recommended TODOs / Command Helpers for the Session / tweaks for pc
+* git add --all && git commit -m "Update readme" && git push
 * clear command line using ``` cls ```
 * Create directory ``` md ```
 * Delete directory ``` rd ```
@@ -25,6 +26,7 @@
     4. Add the copied path earlier to the PATH environment variable: 
 ![add path](capture_addpath.PNG)
     5. Add VSC code (wcs) path to the path as well so you can run ``` code . ``` to open VSC.
+* install http-server version 0.9.0 ``` npm install http-server@0.9.0 -g```
 
 # Node.JS
 
@@ -67,8 +69,10 @@ npm help // access npm help
 npm install // will install all dependencies
 npm install --dev // will install all dev-dependencies
 npm install <package name> // install package locally
-npm install <package name> --save // install package locally and add the package to project dependencies
+npm install <package name>@<version range> // install package locally with specified version and add the package to project dependencies
 npm install <package name> --save-dev // install package locally and add the package to project dev-dependencies
+npm install <package name> -g // install package globally
+npm uninstall <package name>// uninstall package globally
 
 ```
 #### Node and NPM samples
@@ -91,5 +95,11 @@ Getting Started with NPM:
 2. Tells npm to manage the folder / project directory by running: ``` npm init ```
 3. Verify if package.json was created in your project directory 
 4. Tip: you may also run ``` npm init --y ``` to questions and npm will have the default values
-
-Installing Package: 
+5. Install a package
+6. Create index.html and index.js
+    ``` touch index.html && touch index.js ```
+7. Use the package installed in node in your js file.
+7. Create your html5 defaults in index.html
+8. Link your JS file in your html file
+9. Run with http-server ( localhost ) ``` http-server ``` and access it via [http://localhost:8080/](http://localhost:8080/)
+10. 
