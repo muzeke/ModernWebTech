@@ -17,7 +17,7 @@ Per nodejs site:
     * is a JavaScript runtime built on Chrome's V8(C++) JavaScript engine.
 
 NodeJS in a nutshell: 
-    * created by Ryan Dah by taking chromes v8 engine (fastest engine available) and embedded it inside a C++.
+    ..* created by Ryan Dah by taking chromes v8 engine (fastest engine available) and embedded it inside a C++.
     * Trivia: Microsoft Edge uses Chakra, Firefox uses spidermonkey, and chrome uses V8.
     * is a framework for writing server-side JavaScript applications. It is built on top of the V8 JavaScript runtime and uses an event-driven, non-blocking I/O model that makes it perfect for data-intensive, real-time applications.
     * uses an event-driven, non-blocking I/O model that makes it lightweight and efficient.
