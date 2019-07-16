@@ -14,11 +14,11 @@
 * if you are using vsc use ``` CTRL + backticks or tilde(`) ``` to open terminal (add shift if you have CMDER)
 * install touch-cli ``` npm i -g touch-cli ```
 * add npm folder in your environment path 
-    1. Run or Go to : %USERPROFILE%\AppData\Roaming\npm.
+    1. Run or Go to : ``` %USERPROFILE%\AppData\Roaming\npm ```.
     2. Copy the Path
     3. Click winkey and type `variables`
 
-[Edit Variables](capture_editvariables.PNG)
+![Edit Variables](capture_editvariables.PNG)
 
 
 # Node.JS
