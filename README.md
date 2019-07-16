@@ -18,7 +18,7 @@
     2. Copy the Path
     3. Click winkey and type `variables`
 
-[Edit Variables](capture_editvariables.jpg)
+[Edit Variables](capture_editvariables.PNG)
 
 
 # Node.JS
