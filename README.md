@@ -14,7 +14,7 @@
 ## What is [NODE.js](https://nodejs.org/en/) ?
 
 #### Per nodejs site: 
-    * is a JavaScript runtime built on Chrome's V8(C++) JavaScript engine.
+* is a JavaScript runtime built on Chrome's V8(C++) JavaScript engine.
 
 #### NodeJS in a nutshell: 
     * created by Ryan Dah by taking chromes v8 engine (fastest engine available) and embedded it inside a C++.
