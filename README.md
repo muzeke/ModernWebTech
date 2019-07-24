@@ -108,4 +108,31 @@ Getting Started with NPM:
 # Babel
 - a JS transpiler that converts new JS code into old ones.
 - is a very flexible tool in terms of transpiling. One can easily add presets such as es2015, es2016, es2017, so that Babel compiles them to ES5.
-- 
+- https://babeljs.io/docs/en/
+
+# JS Linter
+- are tools that you can use to help you debug your code.
+- scan your scripts for common issues and errors, and give you back a report with line numbers that you can use to fix things.
+- can also check for subjective, stylistic preferences as well. Did you include a space between the function name and parentheses? Did you use single or double quotes around strings? Things like that.
+
+## 3 Popular js linters are : 
+- JSLint: Highly opinionated and based on Douglas Crockford’s Javascript: The Good Parts, it does not allow for much configuration.
+- JSHint: Comes loaded with sensible defaults, but allows for a lot more configuration than JSLint.
+- ESLint: An extremely configurable linter that also supports JSX and can autoformat scripts to match your preferred code formatting style.
+
+## ESLINT
+```
+npm install eslint -g
+./node_modules/.bin/eslint --init
+```
+
+# GIT
+- is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency
+ 
+ -- SVN (Subversion), Mercurial
+# GitLab
+
+
+# WebPack
+https://webpack.js.org/
+- is a JavaScript module bundler that takes your JavaScript files and their dependencies and generates one or more JavaScript files, so you can load different pieces of code for different scenarios.
