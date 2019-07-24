@@ -1,12 +1,5 @@
-# Introduction to Modern Web Technologies
+# Introduction to Modern Web Technologies Tool Chains..
 
-### Topics
-- Markdown
-- Node.JS
-- NPM
-- webpack
-- babel
-- es6
 
 
 #### Recommended TODOs / Command Helpers for the Session / tweaks for pc
@@ -29,10 +22,11 @@
     5. Add VSC code (wcs) path to the path as well so you can run ``` code . ``` to open VSC.
 * install http-server version 0.9.0 ``` npm install http-server@0.9.0 -g```
 
+# Markdown 
+
 # Node.JS
 
 ## What is [node.js](https://nodejs.org/en/) ?
-
 
 #### NodeJS in a nutshell: 
 * created by Ryan Dah by taking chromes v8 engine (fastest engine available) and embedded it inside a C++.
@@ -136,3 +130,16 @@ npm install eslint -g
 # WebPack
 https://webpack.js.org/
 - is a JavaScript module bundler that takes your JavaScript files and their dependencies and generates one or more JavaScript files, so you can load different pieces of code for different scenarios.
+
+# ES6 and beyond
+
+# TOPICS 
+- 
+### Topics
+- Git, Gitlab & Markdowns
+- webpack
+- EsLint
+- Babel
+- EcmaScript 6 and beyond
+- React
+- Add more .....
