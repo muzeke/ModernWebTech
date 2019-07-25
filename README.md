@@ -132,10 +132,11 @@ https://webpack.js.org/
 - is a JavaScript module bundler that takes your JavaScript files and their dependencies and generates one or more JavaScript files, so you can load different pieces of code for different scenarios.
 
 # ES6 and beyond
+- ES6 refers to version 6 of the ECMA Script programming language. ECMA Script is the standardized name for JavaScript, and version 6 is the next version after version 5, which was released in 2011. It is a major enhancement to the JavaScript language, and adds many more features intended to make large-scale software development easier.
+- https://www.w3schools.com/js/js_versions.asp
 
 # TOPICS 
-- 
-### Topics
+
 - Git, Gitlab & Markdowns
 - webpack
 - EsLint
