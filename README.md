@@ -143,9 +143,8 @@ https://webpack.js.org/
 # TOPICS 
 
 - Git, Gitlab & Markdowns
-- webpack
 - EsLint
-- Babel
+- Babel & webpack
 - EcmaScript 6 and beyond
 - TypeScript part 2 ( break into parts if needed)
 - Visual Studio Code and beyond
@@ -155,3 +154,10 @@ https://webpack.js.org/
     - RegEx
     - etc.
 - Add more .....
+
+
+# Quick Algo Game
+
+ - Winner will choose a name to add to the KART Wheel
+ - No plagiarism or copying of code from google.
+n
