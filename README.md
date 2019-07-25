@@ -148,8 +148,10 @@ https://webpack.js.org/
 - Babel
 - EcmaScript 6 and beyond
 - TypeScript part 2 ( break into parts if needed)
+- Visual Studio Code and beyond
 - JavaScript - more
-  > javascript higher order functions
-  > RegEx
-  > etc.
+  > 
+    - javascript higher order functions
+    - RegEx
+    - etc.
 - Add more .....
